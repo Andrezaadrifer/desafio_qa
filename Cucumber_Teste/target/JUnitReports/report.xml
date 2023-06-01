@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.283" tests="30" skipped="0" failures="0" errors="0">
+<testcase classname="Criação de subtarefas" name="Quantidade de subtarefas - Example #1.1" time="0.021">
+<system-out><![CDATA[
+Given tenha criado uma tarefa...............................................passed
+And selecionado botão de gerenciar subtarefas...............................passed
+When visualizar "0" de subtasks informados..................................passed
+Then compara com o "0" da tarefa............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Criação de subtarefas" name="Quantidade de subtarefas - Example #1.2" time="0.002">
+<system-out><![CDATA[
+Given tenha criado uma tarefa...............................................passed
+And selecionado botão de gerenciar subtarefas...............................passed
+When visualizar "1" de subtasks informados..................................passed
+Then compara com o "1" da tarefa............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Criação de subtarefas" name="Edição campo o ID e descrição da tarefa" time="0">
+<system-out><![CDATA[
+Given tenha criado uma tarefa...............................................passed
+And selecionado botão de gerenciar subtarefas...............................passed
+When selecionar o campo de descrição da tarefa..............................passed
+And digitar novo texto para descrição da tarefa.............................passed
+Then não deve ser permitido alterar o texto da descrição da tarefa..........passed
+]]></system-out>
+</testcase>
+<testcase classname="Criação de subtarefas" name="Inserir descrição e data de subtarefas - Example #1.1" time="0.004">
+<system-out><![CDATA[
+Given tenha criado uma tarefa...............................................passed
+And selecionado botão de gerenciar subtarefas...............................passed
+When selecionar o campo de descrição da subtarefa...........................passed
+And inserir o "Teste - 249 caracteres: Caros amigos, a estrutura atual da organização obstaculiza a apreciação da importância das condições inegavelmente apropriadas. Desta maneira, a consolidação das estruturas acarreta um processo de reformulação e modernização.".passed
+And selecionar o campo de data de vencimento da subtarefa...................passed
+And inserir a "05/26/2023"..................................................passed
+And selecionar botão de adicionar subtarefa.................................passed
+Then deve comparar o texto e data iseridos com os valores existentes........passed
+]]></system-out>
+</testcase>
+<testcase classname="Criação de subtarefas" name="Inserir descrição e data de subtarefas - Example #1.2" time="0.001">
+<system-out><![CDATA[
+Given tenha criado uma tarefa...............................................passed
+And selecionado botão de gerenciar subtarefas...............................passed
+When selecionar o campo de descrição da subtarefa...........................passed
+And inserir o "Teste - 250 caracteres: Caros amigos, a estrutura atual da organização obstaculiza a apreciação da importância das condições inegavelmente apropriadas. Desta maneira, a consolidação das estruturas acarreta um processo de reformulação e modernização..".passed
+And selecionar o campo de data de vencimento da subtarefa...................passed
+And inserir a "05/26/2023"..................................................passed
+And selecionar botão de adicionar subtarefa.................................passed
+Then deve comparar o texto e data iseridos com os valores existentes........passed
+]]></system-out>
+</testcase>
+<testcase classname="Criação de subtarefas" name="Inserir descrição e data de subtarefas - Example #1.3" time="0.001">
+<system-out><![CDATA[
+Given tenha criado uma tarefa...............................................passed
+And selecionado botão de gerenciar subtarefas...............................passed
+When selecionar o campo de descrição da subtarefa...........................passed
+And inserir o "Teste - 251 caracteres: Caros amigos, a estrutura atual da organização obstaculiza a apreciação da importância das condições inegavelmente apropriadas. Desta maneira, a consolidação das estruturas acarreta um processo de reformulação e modernização...".passed
+And selecionar o campo de data de vencimento da subtarefa...................passed
+And inserir a "05/26/2023"..................................................passed
+And selecionar botão de adicionar subtarefa.................................passed
+Then deve comparar o texto e data iseridos com os valores existentes........passed
+]]></system-out>
+</testcase>
+<testcase classname="Criação de subtarefas" name="Inserir descrição e data de subtarefas - Example #1.4" time="0.002">
+<system-out><![CDATA[
+Given tenha criado uma tarefa...............................................passed
+And selecionado botão de gerenciar subtarefas...............................passed
+When selecionar o campo de descrição da subtarefa...........................passed
+And inserir o ""............................................................passed
+And selecionar o campo de data de vencimento da subtarefa...................passed
+And inserir a "05/26/2023"..................................................passed
+And selecionar botão de adicionar subtarefa.................................passed
+Then deve comparar o texto e data iseridos com os valores existentes........passed
+]]></system-out>
+</testcase>
+<testcase classname="Criação de subtarefas" name="Inserir descrição e data de subtarefas - Example #1.5" time="0.002">
+<system-out><![CDATA[
+Given tenha criado uma tarefa...............................................passed
+And selecionado botão de gerenciar subtarefas...............................passed
+When selecionar o campo de descrição da subtarefa...........................passed
+And inserir o " "...........................................................passed
+And selecionar o campo de data de vencimento da subtarefa...................passed
+And inserir a "05/26/2023"..................................................passed
+And selecionar botão de adicionar subtarefa.................................passed
+Then deve comparar o texto e data iseridos com os valores existentes........passed
+]]></system-out>
+</testcase>
+<testcase classname="Criação de subtarefas" name="Inserir descrição e data de subtarefas - Example #1.6" time="0.002">
+<system-out><![CDATA[
+Given tenha criado uma tarefa...............................................passed
+And selecionado botão de gerenciar subtarefas...............................passed
+When selecionar o campo de descrição da subtarefa...........................passed
+And inserir o "Nova subtarefa 1"............................................passed
+And selecionar o campo de data de vencimento da subtarefa...................passed
+And inserir a ""............................................................passed
+And selecionar botão de adicionar subtarefa.................................passed
+Then deve comparar o texto e data iseridos com os valores existentes........passed
+]]></system-out>
+</testcase>
+<testcase classname="Criação de subtarefas" name="Inserir descrição e data de subtarefas - Example #1.7" time="0.001">
+<system-out><![CDATA[
+Given tenha criado uma tarefa...............................................passed
+And selecionado botão de gerenciar subtarefas...............................passed
+When selecionar o campo de descrição da subtarefa...........................passed
+And inserir o "Nova subtarefa 2"............................................passed
+And selecionar o campo de data de vencimento da subtarefa...................passed
+And inserir a " "...........................................................passed
+And selecionar botão de adicionar subtarefa.................................passed
+Then deve comparar o texto e data iseridos com os valores existentes........passed
+]]></system-out>
+</testcase>
+<testcase classname="Criação de subtarefas" name="Inserir descrição e data de subtarefas - Example #1.8" time="0.001">
+<system-out><![CDATA[
+Given tenha criado uma tarefa...............................................passed
+And selecionado botão de gerenciar subtarefas...............................passed
+When selecionar o campo de descrição da subtarefa...........................passed
+And inserir o "Nova subtarefa 3"............................................passed
+And selecionar o campo de data de vencimento da subtarefa...................passed
+And inserir a "2023/05/26"..................................................passed
+And selecionar botão de adicionar subtarefa.................................passed
+Then deve comparar o texto e data iseridos com os valores existentes........passed
+]]></system-out>
+</testcase>
+<testcase classname="Criar Tarefa" name="Criação de tarefas com uso da tecla enter - Example #1.1" time="0.006">
+<system-out><![CDATA[
+When digitar "Teste - Adicionar nova tarefa pressionando a tecla enter" para descrição da tarefa.passed
+And precionar a tecla enter.................................................passed
+Then deve comparar com o "Teste - Adicionar nova tarefa pressionando a tecla enter" informado.passed
+]]></system-out>
+</testcase>
+<testcase classname="Criar Tarefa" name="Criação de tarefas com uso da tecla enter - Example #1.2" time="0.001">
+<system-out><![CDATA[
+When digitar "" para descrição da tarefa....................................passed
+And precionar a tecla enter.................................................passed
+Then deve comparar com o "" informado.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Criar Tarefa" name="Criação de tarefas com uso da tecla enter - Example #1.3" time="0">
+<system-out><![CDATA[
+When digitar " " para descrição da tarefa...................................passed
+And precionar a tecla enter.................................................passed
+Then deve comparar com o " " informado......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Criar Tarefa" name="Criação de tarefas com uso da tecla enter - Example #1.4" time="0">
+<system-out><![CDATA[
+When digitar "CT" para descrição da tarefa..................................passed
+And precionar a tecla enter.................................................passed
+Then deve comparar com o "CT" informado.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Criar Tarefa" name="Criação de tarefas com uso da tecla enter - Example #1.5" time="0.002">
+<system-out><![CDATA[
+When digitar "CT3" para descrição da tarefa.................................passed
+And precionar a tecla enter.................................................passed
+Then deve comparar com o "CT3" informado....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Criar Tarefa" name="Criação de tarefas com uso da tecla enter - Example #1.6" time="0.001">
+<system-out><![CDATA[
+When digitar "CT04" para descrição da tarefa................................passed
+And precionar a tecla enter.................................................passed
+Then deve comparar com o "CT04" informado...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Criar Tarefa" name="Criação de tarefas com uso da tecla enter - Example #1.7" time="0.002">
+<system-out><![CDATA[
+When digitar "Teste - 249 caracteres: Caros amigos, a estrutura atual da organização obstaculiza a apreciação da importância das condições inegavelmente apropriadas. Desta maneira, a consolidação das estruturas acarreta um processo de reformulação e modernização." para descrição da tarefa.passed
+And precionar a tecla enter.................................................passed
+Then deve comparar com o "Teste - 249 caracteres: Caros amigos, a estrutura atual da organização obstaculiza a apreciação da importância das condições inegavelmente apropriadas. Desta maneira, a consolidação das estruturas acarreta um processo de reformulação e modernização." informado.passed
+]]></system-out>
+</testcase>
+<testcase classname="Criar Tarefa" name="Criação de tarefas com uso da tecla enter - Example #1.8" time="0.001">
+<system-out><![CDATA[
+When digitar "Teste - 250 caracteres: Caros amigos, a estrutura atual da organização obstaculiza a apreciação da importância das condições inegavelmente apropriadas. Desta maneira, a consolidação das estruturas acarreta um processo de reformulação e modernização.." para descrição da tarefa.passed
+And precionar a tecla enter.................................................passed
+Then deve comparar com o "Teste - 250 caracteres: Caros amigos, a estrutura atual da organização obstaculiza a apreciação da importância das condições inegavelmente apropriadas. Desta maneira, a consolidação das estruturas acarreta um processo de reformulação e modernização.." informado.passed
+]]></system-out>
+</testcase>
+<testcase classname="Criar Tarefa" name="Criação de tarefas com uso da tecla enter - Example #1.9" time="0.001">
+<system-out><![CDATA[
+When digitar "Teste - 251 caracteres: Caros amigos, a estrutura atual da organização obstaculiza a apreciação da importância das condições inegavelmente apropriadas. Desta maneira, a consolidação das estruturas acarreta um processo de reformulação e modernização..." para descrição da tarefa.passed
+And precionar a tecla enter.................................................passed
+Then deve comparar com o "Teste - 251 caracteres: Caros amigos, a estrutura atual da organização obstaculiza a apreciação da importância das condições inegavelmente apropriadas. Desta maneira, a consolidação das estruturas acarreta um processo de reformulação e modernização..." informado.passed
+]]></system-out>
+</testcase>
+<testcase classname="Criar Tarefa" name="Criação de tarefas com uso do botão adicionar tarefa - Example #1.1" time="0.001">
+<system-out><![CDATA[
+When digitar "Teste - Adicionar nova tarefa clicando no botão adicionar tarefa" para descrição da tarefa.passed
+And selecionar o botão adicionar tarefa.....................................passed
+Then deve comparar com o "Teste - Adicionar nova tarefa clicando no botão adicionar tarefa" informado.passed
+]]></system-out>
+</testcase>
+<testcase classname="Criar Tarefa" name="Criação de tarefas com uso do botão adicionar tarefa - Example #1.2" time="0">
+<system-out><![CDATA[
+When digitar "" para descrição da tarefa....................................passed
+And selecionar o botão adicionar tarefa.....................................passed
+Then deve comparar com o "" informado.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Criar Tarefa" name="Criação de tarefas com uso do botão adicionar tarefa - Example #1.3" time="0.001">
+<system-out><![CDATA[
+When digitar " " para descrição da tarefa...................................passed
+And selecionar o botão adicionar tarefa.....................................passed
+Then deve comparar com o " " informado......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Criar Tarefa" name="Criação de tarefas com uso do botão adicionar tarefa - Example #1.4" time="0.002">
+<system-out><![CDATA[
+When digitar "AT" para descrição da tarefa..................................passed
+And selecionar o botão adicionar tarefa.....................................passed
+Then deve comparar com o "AT" informado.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Criar Tarefa" name="Criação de tarefas com uso do botão adicionar tarefa - Example #1.5" time="0">
+<system-out><![CDATA[
+When digitar "C16" para descrição da tarefa.................................passed
+And selecionar o botão adicionar tarefa.....................................passed
+Then deve comparar com o "C16" informado....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Criar Tarefa" name="Criação de tarefas com uso do botão adicionar tarefa - Example #1.6" time="0">
+<system-out><![CDATA[
+When digitar "CT17" para descrição da tarefa................................passed
+And selecionar o botão adicionar tarefa.....................................passed
+Then deve comparar com o "CT17" informado...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Criar Tarefa" name="Criação de tarefas com uso do botão adicionar tarefa - Example #1.7" time="0.002">
+<system-out><![CDATA[
+When digitar "Teste - 249 caracteres: Caros amigos, a estrutura atual da organização obstaculiza a apreciação da importância das condições inegavelmente apropriadas. Desta maneira, a consolidação das estruturas acarreta um processo de reformulação e modernização." para descrição da tarefa.passed
+And selecionar o botão adicionar tarefa.....................................passed
+Then deve comparar com o "Teste - 249 caracteres: Caros amigos, a estrutura atual da organização obstaculiza a apreciação da importância das condições inegavelmente apropriadas. Desta maneira, a consolidação das estruturas acarreta um processo de reformulação e modernização." informado.passed
+]]></system-out>
+</testcase>
+<testcase classname="Criar Tarefa" name="Criação de tarefas com uso do botão adicionar tarefa - Example #1.8" time="0.001">
+<system-out><![CDATA[
+When digitar "Teste - 250 caracteres: Caros amigos, a estrutura atual da organização obstaculiza a apreciação da importância das condições inegavelmente apropriadas. Desta maneira, a consolidação das estruturas acarreta um processo de reformulação e modernização.." para descrição da tarefa.passed
+And selecionar o botão adicionar tarefa.....................................passed
+Then deve comparar com o "Teste - 250 caracteres: Caros amigos, a estrutura atual da organização obstaculiza a apreciação da importância das condições inegavelmente apropriadas. Desta maneira, a consolidação das estruturas acarreta um processo de reformulação e modernização.." informado.passed
+]]></system-out>
+</testcase>
+<testcase classname="Criar Tarefa" name="Criação de tarefas com uso do botão adicionar tarefa - Example #1.9" time="0.002">
+<system-out><![CDATA[
+When digitar "Teste - 251 caracteres: Caros amigos, a estrutura atual da organização obstaculiza a apreciação da importância das condições inegavelmente apropriadas. Desta maneira, a consolidação das estruturas acarreta um processo de reformulação e modernização..." para descrição da tarefa.passed
+And selecionar o botão adicionar tarefa.....................................passed
+Then deve comparar com o "Teste - 251 caracteres: Caros amigos, a estrutura atual da organização obstaculiza a apreciação da importância das condições inegavelmente apropriadas. Desta maneira, a consolidação das estruturas acarreta um processo de reformulação e modernização..." informado.passed
+]]></system-out>
+</testcase>
+<testcase classname="Login de usuário" name="Autenticação com sucesso no aplicativo ToDo" time="0.002">
+<system-out><![CDATA[
+Given usuario acessa a pagina de login......................................passed
+When usuario informa login e senha..........................................passed
+And clica sob o botão de realizar login.....................................passed
+Then usuario é direcionado a pagina inicial.................................passed
+]]></system-out>
+</testcase>
+</testsuite>
